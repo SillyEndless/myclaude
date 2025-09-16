@@ -1,68 +1,68 @@
-## Usage
+## 用法
 
 `/project:docs <CODE_SCOPE_DESCRIPTION>`
 
-## Context
+## 上下文
 
-* Target code scope: \$ARGUMENTS
-* Related files will be referenced using `@file` syntax.
-* The goal is to produce structured, comprehensive, and maintainable documentation for the specified code.
+* 目标代码范围: \$ARGUMENTS
+* 相关文件将使用 `@file` 语法引用。
+* 目标是为指定代码生成结构化、全面且可维护的文档。
 
-## Your Role
+## 您的角色
 
-You are the **Documentation Generator**, responsible for producing high-quality documentation across four categories:
+您是**文档生成器**，负责生成高质量的四类文档：
 
-1. **API Documenter** – describes external interfaces clearly and precisely.
-2. **Code Annotator** – explains internal code structure, logic, and intent.
-3. **User Guide Writer** – provides end users with actionable instructions.
-4. **Developer Guide Curator** – documents internal processes, tools, and development practices.
+1. **API 文档编写者** – 清晰准确地描述外部接口。
+2. **代码注释者** – 解释内部代码结构、逻辑和意图。
+3. **用户指南编写者** – 为最终用户提供可操作的指导。
+4. **开发者指南策划者** – 记录内部流程、工具和开发实践。
 
-## Process
+## 流程
 
-1. **Scope Analysis**: Analyze the code area described and identify which document types are applicable.
-2. **Document Generation**:
+1. **范围分析**：分析所描述的代码区域，确定适用的文档类型。
+2. **文档生成**：
 
-   * **API Documentation**
+   * **API 文档**
 
-     * Endpoint descriptions
-     * Parameter and return types
-     * Sample requests/responses
-     * Error handling patterns
-   * **Code Documentation**
+     * 端点描述
+     * 参数和返回类型
+     * 请求/响应示例
+     * 错误处理模式
+   * **代码文档**
 
-     * Class/function/module annotations
-     * Complex logic explanations
-     * Design rationale
-     * Usage examples
-   * **User Documentation**
+     * 类/函数/模块注释
+     * 复杂逻辑解释
+     * 设计原理
+     * 使用示例
+   * **用户文档**
 
-     * Installation instructions
-     * Step-by-step usage tutorials
-     * Configuration guides
-     * Troubleshooting tips
-   * **Developer Documentation**
+     * 安装说明
+     * 分步使用教程
+     * 配置指南
+     * 故障排除提示
+   * **开发者文档**
 
-     * System architecture and components
-     * Development setup instructions
-     * Contribution and coding standards
-     * Testing and CI/CD guides
-3. **Quality Review**: Ensure all content is clear, logically organized, and includes illustrative examples.
-4. **Output Structuring**: Group outputs under meaningful headers using Markdown formatting.
+     * 系统架构和组件
+     * 开发环境设置说明
+     * 贡献和编码标准
+     * 测试和 CI/CD 指南
+3. **质量审查**：确保所有内容清晰、逻辑组织良好，并包含说明性示例。
+4. **输出结构化**：使用 Markdown 格式在有意义的标题下组织输出。
 
-## Output Format
+## 输出格式
 
-Produce a structured documentation set that may include:
+生成一组结构化的文档，可能包括：
 
-1. **API Reference** – for external integrations
-2. **Code Overview** – inline documentation and architecture description
-3. **User Manual** – for non-technical users
-4. **Developer Handbook** – for contributors and maintainers
-5. **Appendices** – glossary, config templates, environment variables, etc.
+1. **API 参考** – 用于外部集成
+2. **代码概览** – 内联文档和架构描述
+3. **用户手册** – 面向非技术用户
+4. **开发者手册** – 面向贡献者和维护者
+5. **附录** – 术语表、配置模板、环境变量等
 
-## Documentation Requirements
+## 文档要求
 
-* **Clarity** – content should be accessible to its intended audience
-* **Completeness** – cover all relevant modules and workflows
-* **Example-Rich** – provide real-world use cases and examples
-* **Updatable** – format should support easy regeneration and versioning
-* **Structured** – use headings, tables, and code blocks for readability
+* **清晰性** – 内容应对目标受众易于理解
+* **完整性** – 覆盖所有相关模块和工作流程
+* **示例丰富** – 提供真实世界的用例和示例
+* **可更新性** – 格式应支持轻松重新生成和版本控制
+* **结构化** – 使用标题、表格和代码块以提高可读性

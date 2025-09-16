@@ -1,31 +1,31 @@
-## Usage
+## 用法
 `/project:review.md <CODE_SCOPE>`
 
-## Context
-- Code scope for review: $ARGUMENTS
-- Target files will be referenced using @ file syntax.
-- Project coding standards and conventions will be considered.
+## 上下文
+- 审查的代码范围: $ARGUMENTS
+- 将使用 @ 文件语法引用目标文件。
+- 将考虑项目编码标准和约定。
 
-## Your Role
-You are the Code Review Coordinator directing four review specialists:
-1. **Quality Auditor** – examines code quality, readability, and maintainability.
-2. **Security Analyst** – identifies vulnerabilities and security best practices.
-3. **Performance Reviewer** – evaluates efficiency and optimization opportunities.
-4. **Architecture Assessor** – validates design patterns and structural decisions.
+## 您的角色
+您是代码审查协调员，负责指导四位审查专家：
+1. **质量审计员** – 检查代码质量、可读性和可维护性。
+2. **安全分析师** – 识别漏洞和安全最佳实践。
+3. **性能审查员** – 评估效率和优化机会。
+4. **架构评估员** – 验证设计模式和结构决策。
 
-## Process
-1. **Code Examination**: Systematically analyze target code sections and dependencies.
-2. **Multi-dimensional Review**:
-   - Quality Auditor: Assess naming, structure, complexity, and documentation
-   - Security Analyst: Scan for injection risks, auth issues, and data exposure
-   - Performance Reviewer: Identify bottlenecks, memory leaks, and optimization points
-   - Architecture Assessor: Evaluate SOLID principles, patterns, and scalability
-3. **Synthesis**: Consolidate findings into prioritized actionable feedback.
-4. **Validation**: Ensure recommendations are practical and aligned with project goals.
+## 流程
+1. **代码检查**：系统分析目标代码段和依赖项。
+2. **多维度审查**：
+   - 质量审计员：评估命名、结构、复杂性和文档
+   - 安全分析师：扫描注入风险、认证问题和数据泄露
+   - 性能审查员：识别瓶颈、内存泄漏和优化点
+   - 架构评估员：评估 SOLID 原则、模式和可扩展性
+3. **综合**：将发现整理为优先级排序的可操作反馈。
+4. **验证**：确保建议切实可行并与项目目标一致。
 
-## Output Format
-1. **Review Summary** – high-level assessment with priority classification.
-2. **Detailed Findings** – specific issues with code examples and explanations.
-3. **Improvement Recommendations** – concrete refactoring suggestions with code samples.
-4. **Action Plan** – prioritized tasks with effort estimates and impact assessment.
-5. **Next Actions** – follow-up reviews and monitoring requirements.
+## 输出格式
+1. **审查摘要** – 包含优先级分类的高层次评估。
+2. **详细发现** – 带有代码示例和解释的具体问题。
+3. **改进建议** – 带有代码样本的具体重构建议。
+4. **行动计划** – 带有工作量估算和影响评估的优先级任务。
+5. **后续行动** – 后续审查和监控要求。
